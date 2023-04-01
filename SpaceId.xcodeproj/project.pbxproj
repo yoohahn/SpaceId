@@ -46,6 +46,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04E42C4D29D37119006B62FE /* SpaceId.profdata */ = {isa = PBXFileReference; lastKnownFileType = file; path = SpaceId.profdata; sourceTree = "<group>"; };
 		1906705E1E4B36F700D3A7A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1972EE9C1EAEE70100658284 /* PFMoveApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFMoveApplication.h; sourceTree = "<group>"; };
 		1972EE9D1EAEE70100658284 /* PFMoveApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFMoveApplication.m; sourceTree = "<group>"; };
@@ -82,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04E42C4C29D37119006B62FE /* OptimizationProfiles */ = {
+			isa = PBXGroup;
+			children = (
+				04E42C4D29D37119006B62FE /* SpaceId.profdata */,
+			);
+			path = OptimizationProfiles;
+			sourceTree = "<group>";
+		};
 		1972EE9B1EAEE70100658284 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +120,7 @@
 			children = (
 				19A7AC7B1E44D493004FBE39 /* SpaceId */,
 				19A7AC7A1E44D493004FBE39 /* Products */,
+				04E42C4C29D37119006B62FE /* OptimizationProfiles */,
 			);
 			sourceTree = "<group>";
 		};
@@ -414,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = VBQ33APC27;
@@ -435,6 +446,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_USE_OPTIMIZATION_PROFILE = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = VBQ33APC27;
